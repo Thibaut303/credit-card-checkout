@@ -1,0 +1,95 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cb {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    width: 40%;
+    padding: 10px;
+    margin: 4px;
+
+
+}
+
+
+h1 {
+    font-size: 18px;
+    border: 1px red solid;
+    color :black;
+
+}
+.title {
+    text-align: center;
+}
+.section-left {
+    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: grey;
+    font-size: 14px;
+    width: 50%;
+}
+.mastercard {
+    relative position: right;
+}
+.section-right {
+    border: 1px green solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around:center;
+    text-align: center;
+    font-size: 14px;
+    width: 40%;
+}
+.myButton {
+    background: linear-gradient(to bottom, #c74545 5%, #f50e0e 100%);
+    background-color: #c74545;
+    border-radius: 28px;
+    border: 1px solid #ab1932;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 6px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #663128;
+    width: 15%;
+}
+.myButton:hover {
+    background: linear-gradient(to bottom, #f50e0e 5%, #c74545 100%);
+    background-color: #f50e0e;
+}
+.myButton:active {
+    top: 1px;
+}
+
+.PAY {
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order {
+    font-size: 8px;
+    color: black
+}
+
+.amount {
+    font-size: 8px;
+    color: black
+}
+
+p {
+    font-size: 18px;
+
+    color: red;
+}

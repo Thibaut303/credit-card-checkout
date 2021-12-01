@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Credit Card Checkout</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <section class="cb">
+        <h1 class="title">Credit Card Checkout</h1>
+        <form class="form-container">
+
+            <section class="section-left">
+                <div>
+                    <label for="name">NAME</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="master">
+                    <div>
+                    <label for="card_number">CARD NUMBER</label>
+                    <input type="number" id="card_number">
+                    </div>
+                    <img class="mastercard" src="mastercard.jpg" alt="mastercard" width="40px" height=auto>
+                    <div>
+                </div>
+                    <label for="expiry_date">EXPIRY DATE</label>
+                    <input type="date" id="expiry_date">
+                </div>
+                <div>
+                    <label for="cvv">CVV/CVC</label>
+                    <input type="number" id="cvv">
+                </div>
+                <div>
+                    <input type="checkbox">save my card for future payment</input>
+                </div>
+            </section>
+            <section class="section-right">
+                <div class="order">
+                    <label for="order">ORDER NUMBER</label>
+                    <p>12345678</p>
+                </div>
+                <div class="amount">
+                    <label for="amount">PAYMENT AMOUNT</label>
+                    <p>$59.49</p>
+                </div>
+                <div class="PAY"><a href="#" class="myButton">PAY</a></div>
+            </section>
+        </form>
